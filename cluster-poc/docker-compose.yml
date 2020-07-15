@@ -21,3 +21,17 @@ services:
     environment:
       - OPA_ADDR=http://opa:8181
       - POLICY_PATH=/v1/data/httpapi/authz
+
+  frontend:
+    image: openpolicyagent/demo-pam
+    ports:
+      - "2222:22"
+    volumes:
+      - ./frontend_host_id.json:/etc/host_identity.json
+
+  backend:
+    image: openpolicyagent/demo-pam
+    ports:
+      - "2223:22"
+    volumes:
+      - ./backend_host_id.json:/etc/host_identity.json
