@@ -1,0 +1,3 @@
+[submodule "graphql/reaction"]
+	path = graphql/reaction
+	url = https://github.com/reactioncommerce/reaction.git
