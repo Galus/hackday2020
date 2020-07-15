@@ -1,3 +1,6 @@
 [submodule "graphql/reaction"]
 	path = graphql/reaction
 	url = https://github.com/reactioncommerce/reaction.git
+[submodule "java-spring-boot/docker-java-sprint-boot"]
+	path = java-spring-boot/docker-java-sprint-boot
+	url = https://github.com/karjunan/docker-java-spring-boot.git
