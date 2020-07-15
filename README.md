@@ -20,3 +20,8 @@ OPA policies to limit:
 1. SSH Access
 2. Runtime Versions
 
+
+MORE
+====
+1. https://github.com/open-policy-agent/gatekeeper Gatekeeper is used to enable OPA policies on k8s related resources or api calls.
+
